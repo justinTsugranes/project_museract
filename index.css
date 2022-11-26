@@ -1,0 +1,158 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.main-container {
+  margin: 10vh auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* typography and icons */
+
+h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+i {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.fa-solid {
+  color: #999;
+}
+
+.liked {
+  color: red;
+}
+
+.reposted {
+  color: limegreen;
+}
+
+/* layout */
+
+main,
+header {
+  width: 290px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 14px;
+  background-color: #034748;
+}
+
+.post-input-area {
+  height: 10vh;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* textareas + btn */
+
+textarea {
+  border: none;
+  resize: none;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+button {
+  background-color: #034748;
+  border: none;
+  color: white;
+  padding: 10px 19px;
+  border-radius: 20px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* tweet */
+
+.post {
+  border-top: 1px solid lightgray;
+  padding: 20px 0 0 0;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.post-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.post-details {
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.post-detail {
+  display: flex;
+  gap: 4px;
+}
+
+.post-reply {
+  border-top: 1px solid lightgray;
+  padding: 20px 0 0 0px;
+  margin: 10px 0 10px 40px;
+  width: 80%;
+}
+
+.handle {
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
+  margin-top: 0;
+}
+
+.post-text {
+  width: 207px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* images */
+
+.profile-pic {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  width: 48px;
+}
+
+/* utility */
+.hidden {
+  display: none;
+}
