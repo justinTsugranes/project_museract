@@ -14,7 +14,7 @@
 
 ### [Museract][demo-url]
 
-A social media app for musicians
+Museract is a social media messaging app for musicians.
 
 [Explore the docs][repo-url] --- [View Demo][demo-url] --- [Report Bug][issues-url]
 
@@ -46,13 +46,9 @@ A social media app for musicians
 
 [![Project Screen Shot][project-screenshot]][demo-url] [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url]
 
-<!-- TODO: ADD LONG PROJECT DESCRIPTION -->
-
-<!-- LONG_PROJECT_DESCRIPTION -->
+Museract is a social media messaging app for musicians. With this project, I had the opportunity to learn about the JS .forEach() method, how to use CDNs, and how to conditionally render styles. The app allows musicians to create profiles, connect with other musicians, and send messages to each other. It was built using JavaScript, HTML, and CSS, and includes features such as FontAwesome icons and the use of UUIDs to uniquely identify users. The app is deployed on Netlify
 
 _I'd love to hear any feedback or just thoughts. Feel free to reach out at my contact info below. Cheers!_
-
-<!-- TODO: UNCOMMENT APPLICABLE TECH -->
 
 ### Stack
 
